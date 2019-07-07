@@ -1,9 +1,3 @@
-/*
-* @Author: sottxiong
-* @Date:   2019-07-07 16:28:34
-* @Last Modified by:   sottxiong
-* @Last Modified time: 2019-07-07 23:25:22
-*/
 package cmd
 
 import(
@@ -13,9 +7,16 @@ import(
   "github.com/fatih/color"
   "regexp"
 )
+/*
+* @Author: sottxiong
+* @Date:   2019-07-07 16:28:34
+* @Last Modified by:   sottxiong
+* @Last Modified time: 2019-07-07 23:25:22
+*/
+
 
 type Question struct{
-  Name string
+        Name string
 	Tip string
 	ReTip string
 	Re string
@@ -29,16 +30,16 @@ type Questions struct{
 var (
 	cyan = color.New(color.FgCyan)
 	green = color.New(color.FgGreen)
-  blue = color.New(color.FgBlue)
+        blue = color.New(color.FgBlue)
 	red = color.New(color.FgRed)
 	yellow = color.New(color.FgYellow)
 	boldCyan = cyan.Add(color.Bold)
 	boldGreen = green.Add(color.Bold)
 	boldYellow = yellow.Add(color.Bold)
-  boldBlue = blue.Add(color.Bold)
-  boldRed = red.Add(color.Bold)
+        boldBlue = blue.Add(color.Bold)
+        boldRed = red.Add(color.Bold)
 	questions = &Questions{}
-  answers=map[string]string{}
+        answers=map[string]string{}
 )
 
 func AddQuestion(name,tip,retip,re string) *Questions{
