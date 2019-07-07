@@ -4,7 +4,7 @@ A commander tool written with go
 ### useage
 ```
 # install
-gopm -g -v -u github.com/scott-x/go-commander
+gopm get -g -v -u github.com/scott-x/go-commander
 ```
 ### Code Example
 ```
