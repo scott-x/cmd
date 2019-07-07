@@ -4,7 +4,7 @@
 * @Last Modified by:   sottxiong
 * @Last Modified time: 2019-07-07 22:41:56
 */
-package main
+package example
 
 import (
 	"github.com/scott-x/go-commander/cmd"
