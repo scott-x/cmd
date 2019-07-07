@@ -1,4 +1,4 @@
-module github.com/scott-x/cmd
+module github.com/scott-x/go-commander
 
 go 1.12
 

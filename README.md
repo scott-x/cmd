@@ -7,15 +7,15 @@ A commander tool written with go
 gopm get -g -v -u github.com/scott-x/go-commander
 ```
 ### API
-- func AddQuestion(Name,Tip,ReTip,Re) *Questions
-- func Exec() map[string]string //the example code here is answers
+- [func AddQuestion(Name,Tip,ReTip,Re) *Questions]()
+- [func Exec() map[string]string]() //the example code here is answers
 
 ### Code Example
 ```
 package main
 
 import (
-	"github.com/scott-x/cmd"
+	"github.com/scott-x/go-commander/cmd"
 	"fmt"
 )
 func main(){
@@ -29,3 +29,6 @@ func main(){
 ```
 ### A REFERENCE IMAGE
 ![](./imgs/1.png)
+
+### Error Message
+- [import "github.com/scott-x/go-commander/cmd" is a program, not an importable package]()
