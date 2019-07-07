@@ -2,16 +2,16 @@
 * @Author: sottxiong
 * @Date:   2019-07-07 16:28:34
 * @Last Modified by:   sottxiong
-* @Last Modified time: 2019-07-07 22:35:19
+* @Last Modified time: 2019-07-07 22:58:55
 */
 package cmd
 
 import(
 	"bufio"
-    "os"
-    "strings"
-    "github.com/fatih/color"
-    "regexp"
+  "os"
+  "strings"
+  "github.com/fatih/color"
+  "regexp"
 )
 
 type Question struct{
@@ -21,6 +21,7 @@ type Question struct{
 	Re string
 	//Do func()
 }
+
 type Questions struct{
 	qs []Question
 }
