@@ -1,13 +1,9 @@
-# go-commander
-A commander tool written with go
-
-### useage
-```
-# install
-gopm -g -v -u github.com/scott-x/go-commander
-```
-### Code Example
-```
+/*
+* @Author: sottxiong
+* @Date:   2019-07-07 16:27:42
+* @Last Modified by:   sottxiong
+* @Last Modified time: 2019-07-07 22:23:50
+*/
 package main
 
 import (
@@ -20,7 +16,3 @@ func main(){
    a :=cmd.Exec()
    fmt.Println(a)
 }   
-
-
-```
-
