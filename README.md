@@ -18,9 +18,10 @@ func main(){
    cmd.AddQuestion("name","What's your name ? ","Please input correct name: ","[a-z]+")
    cmd.AddQuestion("age","What's your age ? ","Please input correct age: ","[0-9]{2}")
    a :=cmd.Exec()
-   fmt.Println(a)
+   fmt.Println(a) 
+   //anycode here ...
 }   
 
-
 ```
-
+### A REFERENCE IMAGE
+![](./imgs/1.png)
